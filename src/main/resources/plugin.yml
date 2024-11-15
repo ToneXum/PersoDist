@@ -1,0 +1,22 @@
+name: persodist
+version: '1.0-SNAPSHOT'
+main: org.tonexum.persodist.Persodist
+api-version: '1.20.6'
+prefix: PersoDist
+load: STARTUP
+authors: [ ToneXum ]
+description: Personalized Render Distance
+website: tonexum.org
+
+permissions:
+  persodist.command:
+    description: "The command to set personal render distances"
+    default: op
+
+commands:
+  persodist:
+    description: "The command to set personal render distances"
+    usage: "/persodist (mode) (type) (player) [distance]"
+    aliases: ["pd"]
+    permission: persodist.command
+    permission-message: "Permission denied"
