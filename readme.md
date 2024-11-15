@@ -1,10 +1,10 @@
 # PersoDist
-A paper plugin to manipulate the personal view- and simulation distance. PersoDist allows you to 
-change the view and simulation distance of individual players on the fly.
+A small paper plugin that allows manipulation of view and simulation distance of individual 
+players.
 
 ## Usage
-You can change the view or simulation distance of a single player using the `/persodist` (or 
-`/pd`) command.
+You can (**temporarily!**) change the view or simulation distance of a single player using the
+`/persodist` (or `/pd`) command.
 ``` 
 /persodist (mode) (type) (player) [distance]
 ```
@@ -20,5 +20,5 @@ You can change the view or simulation distance of a single player using the `/pe
 
 ### Note
 Using the command above will only make non-permanent changes. If a player, whose view or 
-simulation distance was changed, it will reset to the server default that is given in `server.
-properties`.
+simulation distance was changed, it will reset to the server default that is given in 
+`server.properties`.
