@@ -20,5 +20,6 @@ You can (**temporarily!**) change the view or simulation distance of a single pl
 
 ### Note
 Using the command above will only make non-permanent changes. If a player, whose view or 
-simulation distance was changed, it will reset to the server default that is given in 
+simulation distance was changed, leaves and rejoins, it will reset to the server default that is 
+given in 
 `server.properties`.
